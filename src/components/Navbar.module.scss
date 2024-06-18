@@ -1,0 +1,38 @@
+@import "../variables.modules";
+
+nav {
+  transition: all 400ms;
+  z-index: 1;
+  margin-top: 15px;
+}
+
+.dark {
+  background-color: $dark;
+}
+
+.light {
+  background-color: $white;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-slice: 1;
+}
+
+li {
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-3px);
+    transition: $transition;
+  }
+}
+
+.link:hover {
+  color: unset;
+}
