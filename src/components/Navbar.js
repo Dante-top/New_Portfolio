@@ -106,7 +106,7 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
               ))}
               <li>
                 <Link
-                  to="https://flowcv.com/resume/nk53kh16a9"
+                  href="https://flowcv.com/resume/nk53kh16a9"
                   scroll={(el) => scrollWidthOffset(el)}
                   smooth
                   target="_blank"
