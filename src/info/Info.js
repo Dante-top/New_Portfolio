@@ -55,6 +55,11 @@ export const info = {
       emoji: "📧",
       text: "masamiaraya093@gmail.com",
     },
+    {
+      emoji: "📃 ",
+      text: "Araya's Resume",
+      link: "https://flowcv.com/resume/nk53kh16a9",
+    },
   ],
   socials: [
     {

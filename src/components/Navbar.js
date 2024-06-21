@@ -159,18 +159,6 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
             </Box>
           ))}
           <li>
-            <Link
-              to="https://flowcv.com/resume/nk53kh16a9"
-              scroll={(el) => scrollWidthOffset(el)}
-              smooth
-              target="_blank"
-              onClick={() => setActive("Resume")}
-              className={Style.link}
-            >
-              Resume
-            </Link>
-          </li>
-          <li>
             <Toggler darkMode={darkMode} handleClick={handleClick} />
           </li>
         </Box>
