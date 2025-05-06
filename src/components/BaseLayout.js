@@ -75,7 +75,7 @@ export default function BaseLayout() {
             <p>
               Created with &hearts; by{" "}
               <a
-                href={"https://araya.dev.vercel.app/"}
+                href={"https://arayamasamiinfo.vercel.app/"}
                 style={{
                   background: info.gradient,
                   WebkitBackgroundClip: "text",
