@@ -73,11 +73,6 @@ export const info = {
       label: "github",
     },
     {
-      link: "https://www.linkedin.com/in/araya-masami/",
-      icon: "fa fa-linkedin",
-      label: "linkedin",
-    },
-    {
       link: "https://x.com/ArayaMasami",
       icon: "fa fa-twitter",
       label: "twitter",

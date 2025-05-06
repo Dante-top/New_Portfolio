@@ -14,7 +14,7 @@ export default function BaseLayout() {
   const [active, setActive] = useState(
     location.pathname === "/"
       ? "home"
-      : location.pathname.slice(1, location.pathname.length)
+      : location.pathname.slice(1, location.pathname.length),
   );
   const refHome = useScrollObserver(setActive);
   const refAbout = useScrollObserver(setActive);
@@ -75,7 +75,7 @@ export default function BaseLayout() {
             <p>
               Created with &hearts; by{" "}
               <a
-                href={"https://arayamasami.dev/"}
+                href={"https://araya.dev.vercel.app/"}
                 style={{
                   background: info.gradient,
                   WebkitBackgroundClip: "text",
